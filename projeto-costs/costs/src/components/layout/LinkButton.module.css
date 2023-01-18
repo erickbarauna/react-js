@@ -1,0 +1,19 @@
+.btn {
+    background-color: #222;
+    color: white;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.488);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 3px #ffbb33;
+}
