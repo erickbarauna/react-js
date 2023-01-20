@@ -1,0 +1,26 @@
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #222;
+    color: white;
+    margin-top: .6em;
+    padding: .4em .8em;
+    font-size: .96em;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+    border-radius: 3px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.303);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #ffbb33;
+}
