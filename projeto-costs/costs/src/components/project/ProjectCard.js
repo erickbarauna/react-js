@@ -1,6 +1,6 @@
 import styles from './ProjectCard.module.css'
 
-import { BsPensil, BsFillTrashFill } from 'react-icons/bs'
+import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 
 function ProjectCard({ id, name, budget, category, handleRemove }) {
     return (
